@@ -24,7 +24,7 @@ module Api
 
         def destroy
           if current_author
-            # Invalidate JWT by updating jti
+            # invalidar jwt
             current_author.update!(jti: SecureRandom.uuid)
 
             render json: {
