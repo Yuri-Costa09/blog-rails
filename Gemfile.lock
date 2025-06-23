@@ -363,6 +363,7 @@ DEPENDENCIES
   devise-jwt
   dotenv
   jsonapi-serializer
+  jwt
   kamal
   pg (~> 1.1)
   puma (>= 5.0)
