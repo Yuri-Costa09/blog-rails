@@ -82,7 +82,7 @@ GEM
     bigdecimal (3.2.2)
     bootsnap (1.18.6)
       msgpack (~> 1.2)
-    brakeman (7.0.2)
+    brakeman (7.1.0)
       racc
     builder (3.3.0)
     concurrent-ruby (1.3.5)
@@ -363,7 +363,6 @@ DEPENDENCIES
   devise-jwt
   dotenv
   jsonapi-serializer
-  jwt
   kamal
   pg (~> 1.1)
   puma (>= 5.0)
